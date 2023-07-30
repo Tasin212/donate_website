@@ -9,12 +9,6 @@ h1 {
 a {
     text-decoration: none;
 }
-.banner {
-    background-image: url(images/donation13.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.8;
-}
 .banner .content {
     text-align: center;
     padding: 175px 307px 175px 307px;
@@ -23,6 +17,11 @@ a {
 .banner .content p {
     margin-top: 25px;
     margin-bottom: 25px;
+}
+.banner {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .btn-primary {
     height: 60px;
