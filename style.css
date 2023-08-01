@@ -6,6 +6,14 @@ h1 {
     font-weight: 700;
     font-size: 60px;
 }
+h2 {
+    font-weight: 600;
+    font-size: 50px;
+}
+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 a {
     text-decoration: none;
 }
@@ -32,4 +40,44 @@ a {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 18px;
+}
+
+/* Donate Today Section */
+.donate-today {
+    text-align: center;
+    padding: 130px 150px;
+}
+
+.amount-container {
+    display: flex;
+    gap: 22px;
+    margin: auto;
+    width: 70%;
+}
+.container-item {
+    background-color: #FAFAFA;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.red {
+    border: 2px solid #FF5959;
+    background-color: #FF5959;
+    opacity: 1;
+}
+.donate-today input {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: none;
+    border-bottom: 2px solid #DADADA;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.amount-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
