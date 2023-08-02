@@ -179,3 +179,7 @@ input[type=email] {
     margin-left: 200px;
     padding-top: 120px;
 }
+
+footer {
+    text-align: center;
+}
