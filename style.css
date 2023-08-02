@@ -10,6 +10,10 @@ h2 {
     font-weight: 600;
     font-size: 50px;
 }
+h3 {
+    font-weight: bolder;
+    font-size: 22px;
+}
 p {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -80,4 +84,43 @@ a {
 .amount-container {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+/* Donate Plan Section */
+
+
+/* .donate-plan {
+    text-align: center;
+} */
+.plan-title {
+    text-align: center;
+}
+.plan-desp {
+    text-align: center;
+}
+.plan-container {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    gap: 15px;
+}
+.plan-item {
+    padding: 70px 0px 40px 10px;
+}
+.plan-item img {
+    padding-bottom: 20px;
+}
+/* .plan-item img{
+    object-position: top left;
+} */
+
+.one {
+    background-color: #edf5f6;
+    margin-right: 20px;
+}
+.two {
+    background-color: #ffeeef;
+}
+.three {
+    background-color: #fff4d6;
 }
