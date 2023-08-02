@@ -16,10 +16,14 @@ h3 {
 }
 p {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    color: #707070;
 }
 a {
     text-decoration: none;
+}
+.banner-desp {
+    color: white;
 }
 .banner .content {
     text-align: center;
@@ -88,10 +92,6 @@ a {
 
 /* Donate Plan Section */
 
-
-/* .donate-plan {
-    text-align: center;
-} */
 .plan-title {
     text-align: center;
 }
@@ -116,11 +116,66 @@ a {
 
 .one {
     background-color: #edf5f6;
-    margin-right: 20px;
 }
 .two {
     background-color: #ffeeef;
 }
 .three {
     background-color: #fff4d6;
+}
+
+/* donation section */
+.donation {
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+.similar {
+    display: flex;
+    gap: 100px;
+}
+.donation-pic img{
+    height: 456px;
+    width: 477px;
+}
+
+
+/* Survie SEction */
+.survive {
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/* updates section */
+.updates {
+    text-align: center;
+    margin: 130px 150px;
+}
+input[type=email] {
+    height: 58px;
+    margin-right: -4px;
+    padding-right: 120px;
+    padding-left: 20px;
+    background-color: #d9d9d9;
+    border: none;
+    font-size: 16px;
+}
+.btn-subs {
+    height: 60px;
+    border: 0;
+    padding: 16px 20px;
+    background: #FF5959;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+}
+.mail {
+    background-color: #fff4d6;
+    height: 200px;
+    width: 800px;
+    margin-left: 200px;
+    padding-top: 120px;
 }
